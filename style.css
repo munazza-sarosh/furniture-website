@@ -317,7 +317,9 @@ a:active {
     /* background-image: url(man.png);
     background-repeat: no-repeat; */
 }
-
+.img-namess h4{
+    margin-top: 50px;
+}
 .img-namess p {
     margin-top: 0px;
 }
