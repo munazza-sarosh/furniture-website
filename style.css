@@ -199,16 +199,19 @@ a:active {
     width: 400px;
     height: 280px;
 }
-.img-three{
+
+.img-three {
     background-image: url(circle.png);
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: right;
     /* background-position: 100px */
 }
-.img-three img{
+
+.img-three img {
     margin-top: 50px;
 }
+
 .img-three img {
     width: 400px;
     height: 600px;
@@ -364,41 +367,81 @@ a:active {
     z-index: 10;
     bottom: 70px;
 }
-
-.first-one{
+footer{
+    margin-top: 200px;
+}
+.first-one {
     text-align: center;
     width: 100%;
     height: 363px;
-    background-color:#F2F5FF;
+    background-color: #F2F5FF;
     margin-top: 0px;
 }
-.text-footer{
-    padding: 100px;
+
+.text-footer {
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
 }
-.text-footer p{
-    margin: 50px 250px;
-    width: 40%;
+
+.text-footer p {
+    /* margin: 50px 250px ;
+    width: 40%; */
+    color: #666666;
 }
+
 .email-form {
     margin-top: 50px;
+    height: 70px;
 }
 
 .email-form input {
     width: 250px;
     padding: 15px;
-    border: none;
+    /* border: none; */
     outline: none;
+    border: 2px solid #054C73;
+    margin-right: 0px;
+    height: 30px;
+    border-radius: 5px;
 }
 
+/* form input{
+    border: 2px solid #054C73;
+} */
 .email-form button {
+    border-radius: 5px;
+    height: 60px;
     padding: 15px 25px;
+    width: 153px;
+    margin-left: 0px;
     border: none;
-    background-color: black;
+    background-color: #011C42;
     color: white;
     cursor: pointer;
 }
-.second-one{
+
+.second {
+    display: flex;
+    flex-direction: row;
     width: 100%;
     height: 363px;
-    background-color:#03344F;
+    background-color: #03344F;
+    margin-top: 0px;
+    color: white;
+}
+
+.second-one {
+    margin: 50px;
+    width: 30%;
+}
+
+.second-one p {
+    margin-top: 50px;
+}
+
+.images-footer img {
+    margin: 5px 10px;
 }
