@@ -150,7 +150,12 @@ a:active {
     margin: 10px 80px;
     /* width: 500px; */
 }
-
+.logo-text p{
+    margin-block:0px ;
+}
+.logo-text h3{
+    margin-bottom: 8px;
+}
 .img-logo {
     margin: 20px;
 }
